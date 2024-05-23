@@ -110,3 +110,28 @@ h2.title{
 .pic:hover img{
     transform: scale(1.5);
 }
+.food-img{
+    transition: 0.4s;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.food-title{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ff4757;
+
+}
+
+.food-price{
+    font-weight: 500;
+   
+}
+.add-cart{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #2ed573;
+    color: white;
+    padding: 10px;
+    
+}

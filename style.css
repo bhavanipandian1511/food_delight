@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: grey;
+    background-color: rgb(50, 33, 33);
 
 }
 
@@ -81,5 +81,32 @@ img{
     /* height: 50%;
     width: 50%; */
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
   
+}
+
+h2.title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+
+}
+.food-box{
+    background-color:wheat;
+    padding: 10px;
+    box-shadow: 0 1px 4px rgba(40,37,37,0.1);
+    border-radius: 3px;
+    height: 100%;
+
+}
+
+.pic{
+    overflow: hidden;
+    height: 70%
+}
+.pic:hover img{
+    transform: scale(1.5);
 }

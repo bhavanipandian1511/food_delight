@@ -126,12 +126,27 @@ h2.title{
     font-weight: 500;
    
 }
-.add-cart{
-    position: absolute;
+
+.food-price-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    /* background-color: green;*/
+}
+
+#add-cart{
+    
+    background-color: #2ed587;
     bottom: 0;
     right: 0;
-    background-color: #2ed573;
     color: white;
     padding: 10px;
-    
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#add-cart:hover{
+    background-color: red;
+
 }
